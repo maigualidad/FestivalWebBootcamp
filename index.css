@@ -1,0 +1,512 @@
+header {
+
+    height: 130px;
+    width: 100%;
+    background-color: #EBEDEF;
+    padding: 5px;
+    display: flex;
+    
+   
+
+}
+
+.astreoheader {
+
+    position: absolute;
+}
+
+.logo {
+    margin-left: 0px;
+    margin-top: 3px;
+
+}
+
+.menu {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin: auto;
+    padding: 0px;
+    height: 130px;
+    width: 100%;
+    
+}
+
+
+.menu ul {
+
+list-style: none;
+font-family: calibri;
+font-weight: 100;
+margin-top: auto;
+margin-bottom: auto;
+
+
+}
+
+.menu ul li {
+ margin-right: 0px;
+
+ 
+}
+
+.redes {
+    height: 2px;
+    background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  
+}
+
+.iconos {
+
+    
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+  
+   
+  
+}
+
+.ic {
+    margin-right: 10px;
+}
+
+.ciudad {
+
+    font-family: calibri;
+    font-weight: 100;
+    margin-right: 940px;
+  
+    
+}
+
+a
+{
+ color:black;
+
+}
+
+.hover1:hover {
+
+    background-color: #E7ABFF ;
+    
+}
+
+
+.hover2:hover {
+
+    background-color: #FFB8F3;
+    
+}
+
+
+.headliner {
+
+    font-family: calibri;
+    font-weight: 100;
+    text-align: center;
+
+}
+
+.videos {
+
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(concert.jpg);
+    padding: 30px;
+    background-attachment: fixed;
+   
+
+}
+
+.vid {
+    width: 560px;
+    height: 355px;
+
+
+
+}
+
+
+.vidtitulo {
+    padding: 0px;
+    margin: auto;
+    height:40px;
+    width: 560px;
+    background-color: black;
+
+}
+
+p {
+ margin-right: 5px; 
+ margin-top: auto;
+ margin-bottom: auto;
+ margin-left: auto;  
+ padding: 0px;
+ font-family: calibri;
+ font-weight: 100;
+ font-size: 25px;
+ text-align: right;
+ color: white;
+   
+}
+
+.titulohead {
+    
+    height: 100px;
+}
+
+.imgheadliner {
+
+    height: 120px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.infobandas {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    
+}
+
+.infobanda {
+
+    height: 400px ;
+    width: 320px ;
+    background-color:  #EBEDEF;
+    padding: auto;
+    margin-left: 40px;
+    margin-right: 40px;    
+
+}
+
+.tituloinfobanda {
+    height: 50px ;
+    width: 320px ;
+    background-color: black;
+    padding: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    
+
+
+}
+
+.infobandatit2 {
+
+    color: #FCE4EC;
+    padding: auto;
+    margin: auto;
+    font-family: Impact, fantasy;
+    font-weight: 100;
+    font-size: 25px;
+   
+    
+}
+
+
+.textobanda
+{
+    color: black;
+    padding: auto;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    margin-right: 3px;
+    font-family: calibri;
+    font-weight: 100;
+    font-size: 15px;
+    text-align: left;
+   
+    
+}
+
+.astroplacebo {
+
+    Float: right;
+    
+    
+}
+
+.partetres {
+
+    display: inline-flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+
+}
+
+.partetrestexto {
+    padding: auto;
+    height: 284px;
+    width: 810px;
+    background-color: #FCE4EC;
+    display: flex;
+
+
+}
+
+.actividades {
+    
+    list-style: none;
+    font-family: Impact, fantasy;
+    font-weight: 100;
+    font-size: 35px;
+    position: relative;
+    margin-top: 65px;
+    margin-left: 80px;
+    padding-left: 0px;
+
+}
+
+.astro3 {
+margin-top: 0px;
+position: absolute;
+
+}
+
+
+.Tickets {
+    height: 300px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+
+
+
+   
+    
+}
+
+.tituloticket1 {
+
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    margin-left: 40px;
+    margin-right: 41px;
+    margin-top: 50px;
+  
+   
+   
+}
+
+.detalletickets {
+
+list-style: none;
+font-family: calibri;
+font-weight: 100;
+margin-top: auto;
+margin-bottom: auto;
+
+
+
+
+}
+
+.tituloticket {
+
+    width: 170px ;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+.ticketcolor {
+
+    color: #FCE4EC;
+    font-family: Impact, fantasy;
+    font-weight: 100;
+    text-align: center;
+    margin: auto;
+    
+    
+}
+
+.tiposticket {
+
+    font-family: Impact, fantasy;
+    font-weight: 100;
+    text-align: center;
+    margin: auto;
+    color: black;
+
+}
+
+.astroticket {
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 140px;
+
+
+}
+
+
+
+
+.divlista {
+    position: relative;
+    margin-right: 200px;
+
+
+}
+
+.galeria
+{
+    height: 300px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.30),rgba(66, 66, 66, 0.30)), url(fondogalaxy.png);
+    background-attachment: fixed;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+
+  
+    
+    
+}
+
+.divfotosuno {
+    height: 150px;
+    width: 1000px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+
+}
+
+.divfotosdos{
+
+    height: 150px;
+    width: 1000px;
+    display: inline-flex;
+    justify-content: space-evenly;
+
+}
+
+
+.fotorecital
+{
+
+    width: 250px;
+    height: 150px;
+
+}
+
+#newsletter {
+    height: 300px;
+    width: 100%;
+    background-color: #EBEDEF;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.news
+{
+    padding: auto;
+    margin: 0px;
+    font-family: Impact, fantasy;
+    font-weight: 100;
+    color: black;
+    font-size: 15px;
+}
+
+
+.imgnews {
+
+    margin-bottom: 10px;
+    margin-top: 50px;
+
+}
+
+
+.news2 {
+
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    margin: 0px;
+    
+    
+
+}
+
+.espacios {
+
+    padding:0px;
+    margin: 0px;
+    list-style: none;
+
+}
+
+.news3
+{
+    font-family: calibri;
+    font-weight: 100;
+    font-size: 15px;
+    color: black;
+    margin: 0px;
+
+}
+
+.email {
+
+    padding: auto;
+    margin: auto;
+    padding: auto;
+    margin: 0px;
+
+}
+
+
+
+
+.footer {
+
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+  
+
+}
+
+.INFOfooter {
+
+list-style: none;
+font-family: calibri;
+font-weight: 100;
+
+}
+
+.tituloinfofooter {
+
+    font-weight: bold
+
+}
+
+.submit {
+
+    background-color: black;
+    color: white;
+
+}
