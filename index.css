@@ -56,29 +56,56 @@ margin-bottom: auto;
   
 }
 
-.iconos {
+.padreiconos {
 
     
     height: 50px;
     width: 100%;
-    display: flex;
+    display: inline-flex;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: row-reverse;
+    
   
    
   
 }
 
+.iconos {
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  
+
+}
+
+
+.iconos2 {
+
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin: 0px;
+    
+
+
+}
+
 .ic {
-    margin-right: 10px;
+    
+    margin-left: 10px;
 }
 
 .ciudad {
 
     font-family: calibri;
     font-weight: 100;
-    margin-right: 940px;
-  
+    margin: 0px;
+    padding: 0px;
+    
     
 }
 
@@ -237,19 +264,32 @@ p {
 
 .partetres {
 
-    display: inline-flex;
-    margin-top: 40px;
-    justify-content: space-evenly;
+    display: flex;
+    margin-top: 70px;
     margin-bottom: 40px;
+    height: 284px;
+    width: 100%;
+
+}
+
+.imagenpartetres {
+
+
+height: 100%;
+width: 30%;
+padding: 0px;
+margin: 0px;
+background-image: url(stage.jpg);
 
 }
 
 .partetrestexto {
-    padding: auto;
-    height: 284px;
-    width: 810px;
+  
     background-color: #FCE4EC;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
 
 
 }
@@ -260,10 +300,7 @@ p {
     font-family: Impact, fantasy;
     font-weight: 100;
     font-size: 35px;
-    position: relative;
-    margin-top: 65px;
-    margin-left: 80px;
-    padding-left: 0px;
+    padding: 20px;
 
 }
 
@@ -273,6 +310,8 @@ position: absolute;
 
 }
 
+
+/* PARTE DE LOS TICKETS */
 
 .Tickets {
     height: 300px;
